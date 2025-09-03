@@ -1,7 +1,10 @@
 [project]
 name = "retracesoftware_autoenable"
 version = "0.1.0"
+description = "Auto-enable retracesoftware instrumentation"
+readme = "README.md"
 license = {text = "Apache-2.0"}
+requires-python = ">=3.11"
 dependencies = ["retracesoftware_proxy"]
 
 [build-system]
